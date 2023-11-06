@@ -58,5 +58,17 @@ Remember the Cascade!
 CSS is short for Cascading Style Sheets. The <style>s cascade down from the outermost containers to the inner ones.
 So if we create an outer HTML element that contains all of the robot pieces.
 
+But wait - there's more
+transform is not a one-trick pony. It's got loads of tricks up it sleeves. The next one we're going to use is called scaleY. This finds the center of the element, and flips it along the Y axis.
+
+
+
 And if we wrote some CSS for that container element, those styles should affect every HTML element inside the container. 
+
+The letter j.
+The letter j's Y-Axis
+The letter j flipped on its Y axis.
+
+Keyframing is an animation term dating back to when every single frame of a cartoon was drawn by hand.
+The animators only worked on the most important frames, and the in-between frames were drawn by assistants. Now, in-betweening is done by computers.
 
