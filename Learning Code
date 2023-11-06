@@ -1,0 +1,16 @@
+CSS - Linear Gradient with semi-transparent borders
+
+.box{box-sizing:border-box; height: 100px; width:
+100px; width: 
+100px; border:
+25px solid rgba(0,0,0,0.1);
+background-color:#eee;
+background-image:
+linear-gradient(to bottom,rgba(255,255,255,0.1), 0%, rgba(0,0,0,0.1) 100%); 
+margin-bottom: 20px;}
+
+{--! comment--!}
+
+http://www.google.com/fonts/
+
+https://fonts.google.com/specimen/Londrina+Shadow?query=Londrina+Shadow
