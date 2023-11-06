@@ -72,3 +72,40 @@ The letter j flipped on its Y axis.
 Keyframing is an animation term dating back to when every single frame of a cartoon was drawn by hand.
 The animators only worked on the most important frames, and the in-between frames were drawn by assistants. Now, in-betweening is done by computers.
 
+Rememeber that Jquery is a library full of helpful Javascript. Instead of writing functions from scratch, you can write the names of commonly used functions that already exist in the library. 
+There's a function in the jQuery library called toggleClass. So let's use that!
+
+From a design perspective, the syntax for JQuery is: "when I do this, make the CSS do this.
+The more common slogan is:
+Find something, do something.
+Chris Coyler.
+
+$('.flash').click(function(){
+$('.brain').toggleClass('laser');
+});
+
+0 0 0 black    255 255 255  white
+255 0 0 red    0 255 255    cyan
+0 255 0 green  255 0 255    magenta
+0 0 255 blue   255 255 0    yellow
+
+It works like this: Math.random creates a random number between 0 and 1.
+0 x 255 = 0
+1 x 255 = 255
+Multiply that random number by 255 you get a random number between 0 and 255.
+
+Math.floor is a clever bit of Javascript that rounds any value down* to a whole number.
+
+0.5 x 255 = 127.5          0.831 x 255 = 211.905
+Math.floor (127.5) = 127    Math.floor(211.905) = 211
+
+This gives you useful numbers (with no decimals) for red, green and blue values.
+Now you can generate random whole numbers between 0 and 255 to make RGB values from! That's step one. Step two:make javascript remember those numbers.
+Javascript gives you something called a variable. Variables slurp up values, including numbers, and hold onto them.
+Variables always have names.
+
+*/
+Making variables is pretty easy. You create by giving them names, then tell them what you want them to remember.
+/*
+
+
