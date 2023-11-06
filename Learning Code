@@ -34,3 +34,5 @@ Unless the browser can't understand the new comman, in which case, it ignores it
 A newer browser reads "now I give it a solid black background, then now I give it a gradient background."
 An older browser hears "now I give it a soolid black background, then blah blah blah blah blah."
 
+Border Radius - You can use border radius to create circles, ovals, bullet or egg shapes; pretty much anything with some curve to it.
+
