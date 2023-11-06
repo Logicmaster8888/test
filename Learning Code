@@ -47,3 +47,16 @@ And, if you give all four corners the exact same border-radius, you will get a c
 
 Giving .foot a border-radius of 40px works, but it only needs to be 20px. Anything less than half the size will look squarish rather than the round, any more is overkill.
 
+The Z axis goes from back to front, just as Y goes from top to bottom, and X goes from left to right.
+
+All this time, we've been in  flat land where z=zero.
+
+Z-Index
+- the default value for z-index, when you don't declare any z-index, is 0. If you want something to go behind your main working layer, give it a negative value. If you want it in front, give it a number greater than zero.
+
+Remember the Cascade!
+CSS is short for Cascading Style Sheets. The <style>s cascade down from the outermost containers to the inner ones.
+So if we create an outer HTML element that contains all of the robot pieces.
+
+And if we wrote some CSS for that container element, those styles should affect every HTML element inside the container. 
+
