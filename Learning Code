@@ -14,3 +14,23 @@ margin-bottom: 20px;}
 http://www.google.com/fonts/
 
 https://fonts.google.com/specimen/Londrina+Shadow?query=Londrina+Shadow
+
+If we had set the background image's size to a fixed number or percent, it would scale poorly on smaller screens. try this: click the desktop-to-mobile- swtich in the top-right of your preview window.
+Notice that the size of the image itself won't change the size of the real estate it occupiesIf onscreen.
+
+If you change the div's background-size to 100% you'll also notice that the image duplications. It will stack vertically as the horizontal width gets smaller,
+because it's trying to maintain both its proportion and its fixed height of 200px. This is why it's best not to assign images specific
+width and height with CSS.
+
+There may be times when it's more important to have the full image remain ont he screen (and we'll go over how to make that happen 
+in future projects), but in this case, it's more important that the details of the image stay visible at full scale
+
+But why does the media query need to go at the end of the regular styles?
+Browsers read CSS from top to bottom. When you give it a command that conflicts with something you told it previously, it forgets the old style
+and runs with the new one...
+
+Unless the browser can't understand the new comman, in which case, it ignores it. That's why it was important to put the solid backup background color before the gradients.
+
+A newer browser reads "now I give it a solid black background, then now I give it a gradient background."
+An older browser hears "now I give it a soolid black background, then blah blah blah blah blah."
+
