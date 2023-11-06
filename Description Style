@@ -1,0 +1,9 @@
+.brain {
+border-radius: 60px 60px 10px 10px;
+border-bottom: 40px double #666;
+}
+
+.brain{
+border-radius: 60px 60px 0 0;
+border-bottom:40px dotted #666;
+}
